@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Good Rating Game</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/listings.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1 class="header">
+    <div class="logo">Good Rating Game</div>
+    <div class="back">
+      <a href="/">Back</a>
+    </div>
+  </h1>
+
+  <div class="game-wrapper">
+    <div class="game-listings">
+      <% games.forEach(function(game) { %>
+        <div class="game-listings-card">
+          <h2 class="title-font"><%= game.name %></h2>
+          <p class="content-font">Release           :<%= game.release  %> </p>
+          <p class="content-font">Developer         : <%= game.developer %></p>
+          <p class="content-font">Publisher         : <%= game.publisher %></p>
+          <p class="content-font">Genres            : <%= game.genres %></p>
+          <p class="content-font">Price($)          : <%= game.price %></p>
+          <p class="content-font">positive ratings  : <%= game.positiveRatings %></p>
+          <p class="content-font">negative ratings  : <%= game.negativeRatings %></p>
+
+        </div>
+      <% }); %> 
+    </div>
+  </div>
+</body>
+</html>

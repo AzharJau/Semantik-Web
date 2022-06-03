@@ -1,0 +1,257 @@
+@prefix dbr:    <http://dbpedia.org/resource/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+
+dbr:CounterStrike
+    a foaf:Game;
+    rdfs:name "Counter-Strike";
+    rdfs:release 2000;
+    rdfs:developer "valve";
+    rdfs:publisher "valve";
+    rdfs:genres "action";
+    rdfs:price 7.19;
+    rdfs:positiveRatings 124534;
+    rdfs:negativeRatings 3339;.
+
+dbr:RagDollKungFu
+    a foaf:Game;
+    rdfs:name "Rag Doll Kung Fu";
+    rdfs:release 2005;
+    rdfs:developer "Mark Healey";
+    rdfs:publisher "Mark Healey";
+    rdfs:genres "indie";
+    rdfs:price 5.99;
+    rdfs:positiveRatings 40;
+    rdfs:negativeRatings 17;.
+
+dbr:DangerousWaters
+    a foaf:Game;
+    rdfs:name "Dangerous Waters";
+    rdfs:release 2006;
+    rdfs:developer "Sonalysts";
+    rdfs:publisher "Strategy First";
+    rdfs:genres "Strategy";
+    rdfs:price 22.99;
+    rdfs:positiveRatings 140;
+    rdfs:negativeRatings 44;.
+
+dbr:SpaceEmpiresIVDeluxe
+    a foaf:Game;
+    rdfs:name "Space Empires IV Deluxe";
+    rdfs:release 2006;
+    rdfs:developer "Malfador Machinations";
+    rdfs:publisher "Strategy First";
+    rdfs:genres "Strategy";
+    rdfs:price 6.99;
+    rdfs:positiveRatings 112;
+    rdfs:negativeRatings 26;.
+
+dbr:TeamFortressClassic
+    a foaf:Game;
+    rdfs:name "Team Fortress Classic";
+    rdfs:release 1999;
+    rdfs:developer "valve";
+    rdfs:publisher "valve";
+    rdfs:genres "action";
+    rdfs:price 3.99;
+    rdfs:positiveRatings 3318;
+    rdfs:negativeRatings 633;.
+
+dbr:KillingFloor
+    a foaf:Game;
+    rdfs:name "Killing Floor";
+    rdfs:release 2009;
+    rdfs:developer "Tripwire Interactive";
+    rdfs:publisher "Tripwire Interactive";
+    rdfs:genres "action";
+    rdfs:price 14.99;
+    rdfs:positiveRatings 53710;
+    rdfs:negativeRatings 2649;.
+
+dbr:Artifact
+    a foaf:Game;
+    rdfs:name "Artifact";
+    rdfs:release 2018;
+    rdfs:developer "Valve";
+    rdfs:publisher "Valve";
+    rdfs:genres "Strategy";
+    rdfs:price 15.99;
+    rdfs:positiveRatings 9937;
+    rdfs:negativeRatings 10501;.
+
+dbr:CalltoPowerII
+    a foaf:Game;
+    rdfs:name "Call to Power II";
+    rdfs:release 2017;
+    rdfs:developer "Activision";
+    rdfs:publisher "Activision";
+    rdfs:genres "Strategy";
+    rdfs:price 4.79;
+    rdfs:positiveRatings 10;
+    rdfs:negativeRatings 14;.
+
+dbr:ReturntoZork
+    a foaf:Game;
+    rdfs:name "Return to Zork";
+    rdfs:release 2017;
+    rdfs:developer "Activision";
+    rdfs:publisher "Activision";
+    rdfs:genres "Adventure";
+    rdfs:price 4.79;
+    rdfs:positiveRatings 11;
+    rdfs:negativeRatings 0;.
+
+dbr:GeometryWars
+    a foaf:Game;
+    rdfs:name "Geometry Wars: Retro Evolved";
+    rdfs:release 2007;
+    rdfs:developer "Bizarre Creations";
+    rdfs:publisher "Activision";
+    rdfs:genres "Casual";
+    rdfs:price 2.99;
+    rdfs:positiveRatings 583;
+    rdfs:negativeRatings 62;.
+
+dbr:DOOM3
+    a foaf:Game;
+    rdfs:name "DOOM 3";
+    rdfs:release 2007;
+    rdfs:developer "Bizarre Creations";
+    rdfs:publisher "id Software";
+    rdfs:genres "action";
+    rdfs:price 0;
+    rdfs:positiveRatings 2633;
+    rdfs:negativeRatings 376;.
+
+dbr:GrandTheftAuto
+    a foaf:Game;
+    rdfs:name "Grand Theft Auto";
+    rdfs:release 2008;
+    rdfs:developer "Remedy Entertainment";
+    rdfs:publisher "Rockstar Games";
+    rdfs:genres "action";
+    rdfs:price 0;
+    rdfs:positiveRatings 199;
+    rdfs:negativeRatings 30;.
+
+dbr:AlienSwarm
+    a foaf:Game;
+    rdfs:name "Alien Swarm";
+    rdfs:release 2010;
+    rdfs:developer "valve";
+    rdfs:publisher "valve";
+    rdfs:genres "action";
+    rdfs:price 0;
+    rdfs:positiveRatings 17435;
+    rdfs:negativeRatings 941;.
+
+dbr:XpandRally
+    a foaf:Game;
+    rdfs:name "Xpand Rally";
+    rdfs:release 2006;
+    rdfs:developer "Techland";
+    rdfs:publisher "Techland";
+    rdfs:genres "racing";
+    rdfs:price 3.99;
+    rdfs:positiveRatings 139;
+    rdfs:negativeRatings 39;.
+
+dbr:ChampionsOnline
+    a foaf:Game;
+    rdfs:name "Champions Online";
+    rdfs:release 2011;
+    rdfs:developer "Cryptic Studios";
+    rdfs:publisher "Perfect World Entertainment";
+    rdfs:genres "RPG";
+    rdfs:price 0;
+    rdfs:positiveRatings 2081;
+    rdfs:negativeRatings 823;.
+
+dbr:Overgrowth
+    a foaf:Game;
+    rdfs:name "Overgrowth";
+    rdfs:release 2017;
+    rdfs:developer "Wolfire Games";
+    rdfs:publisher "Wolfire Games";
+    rdfs:genres "action";
+    rdfs:price 22.99;
+    rdfs:positiveRatings 3200;
+    rdfs:negativeRatings 1315;.
+
+dbr:AirMechStrike
+    a foaf:Game;
+    rdfs:name "AirMech Strike";
+    rdfs:release 2018;
+    rdfs:developer "Carbon Games";
+    rdfs:publisher "Carbon Games";
+    rdfs:genres "action";
+    rdfs:price 0;
+    rdfs:positiveRatings 7640;
+    rdfs:negativeRatings 1440;.
+
+dbr:SaintsRowIV
+    a foaf:Game;
+    rdfs:name "Saints Row IV";
+    rdfs:release 2013;
+    rdfs:developer "Deep Silver Volition";
+    rdfs:publisher "Deep Silver Volition";
+    rdfs:genres "action";
+    rdfs:price 10.99;
+    rdfs:positiveRatings 54091;
+    rdfs:negativeRatings 4945;.
+
+dbr:IndieGameTheMovie
+    a foaf:Game;
+    rdfs:name "Indie Game: The Movie";
+    rdfs:release 2012;
+    rdfs:developer "Digital Reality Software & Playbox";
+    rdfs:publisher "HandyGames";
+    rdfs:genres "indie";
+    rdfs:price 6.99;
+    rdfs:positiveRatings 1536;
+    rdfs:negativeRatings 126;.
+
+dbr:CompanyofHeroes2
+    a foaf:Game;
+    rdfs:name "Company of Heroes 2";
+    rdfs:release 2013;
+    rdfs:developer "Relic Entertainment";
+    rdfs:publisher "SEGA";
+    rdfs:genres "Strategy";
+    rdfs:price 14.99;
+    rdfs:positiveRatings 32548;
+    rdfs:negativeRatings 12038;.
+
+dbr:Blitzkrieg3
+    a foaf:Game;
+    rdfs:name "Blitzkrieg 3";
+    rdfs:release 2017;
+    rdfs:developer "Nival";
+    rdfs:publisher "Nival";
+    rdfs:genres "Strategy";
+    rdfs:price 7.19;
+    rdfs:positiveRatings 2714;
+    rdfs:negativeRatings 1890;.
+
+dbr:DungeonDefendersII
+    a foaf:Game;
+    rdfs:name "Blitzkrieg 3";
+    rdfs:release 2017;
+    rdfs:developer "Trendy Entertainment";
+    rdfs:publisher "Trendy Entertainment";
+    rdfs:genres "action";
+    rdfs:price 0;
+    rdfs:positiveRatings 10766;
+    rdfs:negativeRatings 3802;.
+
+dbr:JonShafersAttheGates
+    a foaf:Game;
+    rdfs:name "Jon Shafer's At the Gates";
+    rdfs:release 2019;
+    rdfs:developer "Conifer Games";
+    rdfs:publisher "Conifer Games";
+    rdfs:genres "indie";
+    rdfs:price 24.99;
+    rdfs:positiveRatings 148;
+    rdfs:negativeRatings 139;.
+
